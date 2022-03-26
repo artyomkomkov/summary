@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="work" />
+    <meta name="description" content="Моё резюме" />
+    <title>Резюме Артёма</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="my image.jpg" alt="мое фото" class="photo" />
+        <div class="info-text">
+          <h1>Артем Комков</h1>
+          <p>Начинающий front-end разработчик, в прошлом электромонтажник.</p>
+          <br><a href="https://t.me/artyom_haven" target="_blank">Мой Telegram</a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои интересы:</h2>
+        <ol class="list">
+          <li>Компьютерное железо</li>
+          <li>Веб-разработка</li>
+          <li>Бег и легкая атлетика</li>
+          <li>Качественный отдых за сериалом или любимой игрой</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>ООО "Арсенал"</td>
+            <td>Монтажник ОПС и систем видеонаблюдения</td>
+            <td>2019 - по наст. время</td>
+          </tr>
+
+          <tr>
+            <td>ООО "МВМ"</td>
+            <td>Продавец</td>
+            <td>2017 - 2019</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <h2>Моё резюме на HeadHunter</h2>
+        <ul class="link-list">
+          <li>
+            <a
+              href="https://taganrog.hh.ru/resume/17109b54ff098693420039ed1f444a4a744b68"
+              target="_blank"
+              >Junior front-end разработчик</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Связаться со мной</h2>
+        <form action="/">
+          <div class="row">
+            <div class="form-group">
+              <label for="name"><b>Ваше имя:</b></label>
+              <input type="text" id="name" placeholder="Введите ваше имя..." />
+            </div>
+
+            <div class="form-group">
+              <label for="email"><b>Ваш email:</b></label>
+              <input type="email" id="email" placeholder="Введите email..." />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text">Ваше сообщение:</label>
+            <textarea id="text" rows="2" cols="15"></textarea>
+          </div>
+
+          <input class="btn" type="submit" value="Связаться!" />
+        </form>
+      </div>
+
+    
+    </div>
+  </body>
+</html>
